@@ -8,10 +8,10 @@ public class Book
 {
   public String pigLatin(String word)
   {
-    int a = word.length;
+    int a = word.length();
     String one = word.substring(0,1);
     String two = word. substring(1, a);
-    String done = "" + two + one;
+    String done = "" + two + one + "ay";
     return done;
   }
   
